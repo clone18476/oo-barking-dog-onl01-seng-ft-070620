@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
   
   def name=(dogs_name)
@@ -16,3 +18,8 @@ class Dog
   
   
 end
+
+cam = Dog.new 
+cam.name = "Cam" 
+cam.bark 
+puts cam.name 
